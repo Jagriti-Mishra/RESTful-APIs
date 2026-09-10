@@ -5,6 +5,9 @@
 [![EJS](https://img.shields.io/badge/EJS-B4CA65?style=for-the-badge&logo=ejs&logoColor=black)](https://ejs.co/)
 [![REST API](https://img.shields.io/badge/Architecture-RESTful%20APIs-blue?style=for-the-badge)](https://restfulapi.net/)
 [![Git](https://img.shields.io/badge/Version%20Control-Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://quora-posts-api.onrender.com/posts)
+
+> 🚀 **Live Demo:** [https://quora-posts-api.onrender.com/posts](https://quora-posts-api.onrender.com/posts)
 
 A full-stack, server-side rendered (SSR) web application simulating a **Quora-style social posting platform**. Built using **Node.js**, **Express.js**, and **EJS**, this project demonstrates industry-standard **RESTful architectural design**, standard HTTP verbs, and complete **CRUD** (Create, Read, Update, Delete) workflows.
 
