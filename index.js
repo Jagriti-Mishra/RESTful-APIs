@@ -1,8 +1,11 @@
 const express = require("express");
 const app = express();
-const port = 8080;
+const port = process.env.PORT || 8080;
 const path = require("path");
 
+app.listen(port, () => {
+    console.log(`listening to port ${port}`);
+});
 
 //UUID => Universally unique Identifier
 const { v4: uuidv4 } = require('uuid'); 
@@ -122,6 +125,4 @@ app.delete("/posts/:id",(req,res)=>{
     posts = posts.filter((p) => id !== p.id);
     res.redirect("/posts")
 });
-app.listen(port,() =>{
-    console.log("Listening to the port : 8080");
-});
+
