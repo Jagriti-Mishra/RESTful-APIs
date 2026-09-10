@@ -176,3 +176,9 @@ RESTful-APIs/
 
 Connect with me on GitHub: [https://github.com/Jagriti-Mishra](https://github.com/Jagriti-Mishra)
 
+---
+
+<p align="center">
+  Made with ❤️ by <a href="https://github.com/Jagriti-Mishra"><b>Jagriti Mishra</b></a>
+</p>
+
