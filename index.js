@@ -6,6 +6,9 @@ const path = require("path");
 app.listen(port, () => {
     console.log(`listening to port ${port}`);
 });
+app.get("/", (req, res) => {
+    res.redirect("/posts");
+});
 
 //UUID => Universally unique Identifier
 const { v4: uuidv4 } = require('uuid'); 
