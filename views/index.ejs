@@ -14,8 +14,9 @@
             <h3 class="user">@ <%=post.username %></h3>
             <h4 class="content"> <%= post.content %></h4>
             <br>
-            <a href="http://localhost:8080/posts/<%=post.id%>">See in detail</a>
-            <a href="http://localhost:8080/posts/<%=post.id%>/edit">Edit</a>
+            <!-- change to relative paths -->
+            <a href="/posts/<%=post.id%>">See in detail</a>
+            <a href="/posts/<%=post.id%>/edit">Edit</a>
             <!-- by default the html forms send a GET req if method is omitted and teh method overrise only intercepts the POST req -->
             <!-- there shouldn't be the spaces in btw the action link as the spaces gets url-encoded due which it it req fails to recognise the override -->
              <form method="POST" action="/posts/<%=post.id%>?_method=DELETE">
